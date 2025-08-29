@@ -3,8 +3,10 @@ TempestSDR attack performed using a HackRF, TempestSDR, and an HDMI 1.2 cable.
 
 ## Background
 
-TempestSDR is a side-channel attack technique that exploits the unintentional electromagnetic emissions from electronic devices. Using a HackRF SDR, an attacker positions the device near a target to capture these stray RF signals, which often correlate with the data processed—such as the image on a screen or keystrokes from a keyboard. 
-The captured signals are then analyzed and processed with specialized software to reconstruct the sensitive information. This method, while powerful for demonstrating vulnerabilities in device shielding and emission controls, is strictly for controlled research or authorized testing, as unauthorized use is both illegal and unethical.
+TempestSDR is a side-channel attack technique that exploits the unintentional electromagnetic emissions from electronic devices. Using a HackRF SDR, an attacker positions the device near a target to capture these stray RF signals. These signals often correlate with the data transmitted such as the image on a screen or keystrokes from a keyboard. 
+The captured signals are then analyzed and processed with specialized software (TempestSDR) to reconstruct the sensitive information. 
+
+> This method, while powerful for demonstrating vulnerabilities in device shielding and emission controls, is strictly for controlled research or authorized testing, as unauthorized use is both illegal and unethical.
 
 ## Tempest SDR Project Overview
 
